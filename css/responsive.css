@@ -15,6 +15,7 @@
         width: 70%;
         height: auto;
         margin-left: 25%;
+        /* background-color: cornflowerblue; */
     }
 
     .images svg {
@@ -33,6 +34,7 @@
         margin-left: 20px;
         display: flex;
     }
+
 }
 
 /* mobile  */
@@ -111,19 +113,60 @@
 
     }
 
+    .about-text p {
+        margin-left: -0px;
+        width: 35%;
+        text-align: center;
+        margin-left: 40px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 18px;
+    }
+
+    .about-text h2,
+    h3 {
+        margin-left: 20px;
+    }
+
+    .heading-project h2 {
+        display: block;
+        margin-top: 50%;
+    }
+
+    .text {
+        margin-top: 5px;
+    }
 
 }
 
 /* galery */
 @media(min-width: 600px) {
+
     .project-img {
-        width: 30%;
+        width: 25%;
         padding: 0px;
         border: 5px solid #f3f7f2;
     }
 
+    .skill-img {
+        width: 250px;
+        height: 250px;
+        margin: 30px;
+        background-color: #9AC791;
+        border-radius: 20px;
+        text-align: center;
+
+    }
+
+    .skill-img img {
+        height: 150px;
+        width: auto;
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+
     .text {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .heading-project h2::after {
@@ -138,6 +181,7 @@
         margin-top: 13px;
     }
 
+
     .heading-project h2 {
         padding-top: 120px;
         color: #353535;
@@ -149,6 +193,9 @@
         text-align: center;
     }
 
+    .heading-skill h2 {
+        margin-left: -20px;
+    }
 
 
 }
