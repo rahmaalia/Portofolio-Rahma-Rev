@@ -149,8 +149,8 @@
     }
 
     .skill-img {
-        width: 250px;
-        height: 250px;
+        width: 230px;
+        height: 230px;
         margin: 30px;
         background-color: #9AC791;
         border-radius: 20px;
@@ -159,7 +159,7 @@
     }
 
     .skill-img img {
-        height: 150px;
+        height: 120px;
         width: auto;
         padding-top: 50px;
         margin: 0 auto;
