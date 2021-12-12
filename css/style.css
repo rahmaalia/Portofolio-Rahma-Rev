@@ -103,7 +103,7 @@ nav ul li a:hover {
     background-size: cover;
     color: black;
     text-align: center;
-    height: 63vh;
+    height: 64vh;
     position: relative;
     transition: all 0.5s;
 }
@@ -375,8 +375,9 @@ p {
 
 .overlay-full img {
     width: auto;
-    max-height: 100%;
+    max-height: 75%;
     margin: 0 auto;
+    margin-top: 35px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
 }
 
@@ -628,6 +629,13 @@ input[type=submit]:hover {
     justify-content: center;
     margin-left: -130px;
     margin-top: 10rem;
+    font-size: 12px;
+}
+
+.footer .copy a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 

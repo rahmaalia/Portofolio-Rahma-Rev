@@ -35,6 +35,17 @@
         display: flex;
     }
 
+
+    /* .about-text {
+        min-width: 100%;
+        margin: 0;
+        padding: 15px;
+        font-size: 10px;
+    } */
+
+    .about-logo {
+        width: 100%;
+    }
 }
 
 /* mobile  */
@@ -137,6 +148,33 @@
         margin-top: 5px;
     }
 
+    .contact-logo img {
+        margin-top: 75px;
+        height: 595px;
+        width: 200%;
+        margin-left: -135px;
+
+    }
+
+    .text-contact p {
+        width: 200%;
+
+    }
+
+    .footer {
+        display: flex;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .footer.copy {
+        margin-left: -50%;
+    }
+
+    .media-contact {
+        display: flex;
+        padding-left: 190px;
+    }
 }
 
 /* galery */
