@@ -25,8 +25,8 @@
             <a href=""><img src="image/logo-rahma.png" alt=""></a>
         </div>
         
-        <ul>
-            <li><a href="#home">HOME</a></li>
+        <ul class="nav">
+            <li class="active"><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#project">PROJECT</a></li>
             <li><a href="#skill">SKILLS</a></li>
@@ -47,7 +47,7 @@
         <div class="baris">
             <div class="row" >
                 <h1> Hi, I'm <span>Rahma</span></h1>
-                <p>this is my official portfolio 
+                <p class="top-text">this is my official portfolio 
                     website to shows all detail 
                     about me</p>
                 <div class="sosial-media">
@@ -77,17 +77,17 @@
     <div class="about-wrapper" id="about">
         <div class="container">
             <div class="baris">
-                <div class="row about-logo" >
+                <div class="row about-logo" id="image-about">
                     <img src="image/rahma.png" alt="">
                 </div>
-                <div class="row about-text" >
+                <div class="row about-text" id="text-about">
                     <h2>About <span>Me</span> </h2>
                     <br>
                     <h3>Hello! Saya Rahma Aliaputri Efendi</h3>
                     <br>
-                    <p>Saya seorang mahasiswa jurusan informatika di salah satu Universitas di Bandung yaitu Universitas Pasundan (Unpas). Saya lahir di Bandung dan sekarang tinggal di Cimahi.</p>
+                    <p class="p-about">Saya seorang mahasiswa jurusan informatika di salah satu Universitas di Bandung yaitu Universitas Pasundan (Unpas). Saya lahir di Bandung dan sekarang tinggal di Cimahi.</p>
                     <br>
-                    <p>Saya mempunyai hobi membaca novel dan membuat ilustrasi sederhana dan masih dalam tahap belajar. Terkadang saya mendapat inspirasi untuk membuat ilustrasi saat sedang membaca buku atau saat bermain sosmed.</p>
+                    <p class="p-about">Saya mempunyai hobi membaca novel dan membuat ilustrasi sederhana dan masih dalam tahap belajar. Terkadang saya mendapat inspirasi untuk membuat ilustrasi saat sedang membaca buku atau saat bermain sosmed.</p>
                     
                 </div>
             </div>
@@ -285,7 +285,6 @@
         </div>
         <div class="container">
             <div class="baris">
-                
                 <div class="row contact-text" >
                     <h2>Contact <span>Me</span> </h2>
                     <br>
@@ -299,10 +298,10 @@
 
                             <label for="subject">Pesan</label>
                             <textarea id="subject" name="subject" placeholder=""  rows="4"></textarea>
-                            <input type="submit" value="Kirim">
+                            <input type="submit" value="Kirim" class="btn-contact">
                         </form>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
@@ -310,8 +309,10 @@
     <!-- footer  -->
     <div class="footer">
         <p class="copy"> Created with <i class="fas fa-heart"></i> by <a href="https://www.instagram.com/rahmaaliaputri21/">  Rahma Aliaputri</a></p>
-      </div>
+    </div>
 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

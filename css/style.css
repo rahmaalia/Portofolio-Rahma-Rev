@@ -67,6 +67,11 @@ nav ul li a:hover {
     margin-left: -118%;
 }
 
+li.active a {
+    color: #8ABD91;
+
+}
+
 /* menu */
 .menu-toggle {
     display: none;
@@ -375,7 +380,7 @@ p {
 
 .overlay-full img {
     width: auto;
-    max-height: 75%;
+    max-height: 85%;
     margin: 0 auto;
     margin-top: 35px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);

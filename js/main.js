@@ -9,4 +9,11 @@ menuToggle.addEventListener('click', function () {
 window.addEventListener("scroll", function(){
     var header = document.querySelector("nav");
     header.classList.toggle('sticky', window.scrollY > 0);
-  });
+});
+
+var selector = '.nav li';
+
+$(selector).on('click', function(){
+    $(selector).removeClass('active');
+    $(this).addClass('active');
+});
